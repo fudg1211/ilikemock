@@ -10,10 +10,16 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.6",
+    "antd": "^4.7.2",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-scripts": "3.4.3",
-    "typescript": "~3.7.2"
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.0",
+    "typescript": "^3.8.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -35,5 +41,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-react": "^1.1.7",
+    "typescript-eslint": "^0.0.1-alpha.0",
+    "@typescript-eslint/eslint-plugin": "4.0.1",
+    "@typescript-eslint/parser": "4.0.1"
   }
 }
